@@ -1,0 +1,86 @@
+
+.main{
+    background: rgba(16, 16, 16, 0.075);
+    width: 300px;
+    height: 360px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px 5px rgba(17, 17, 17, 0.179);
+   
+   
+}
+
+.main:hover{
+    background: rgb(223, 224, 226);
+    cursor: pointer;
+}
+
+.img{
+    width: 290px;
+    height: 200px;
+}
+.productName{
+    font-size: 20px;
+}
+.productPrice{
+
+    font-size: 15px;
+}
+.description{
+    margin-top: -5px;
+    font-size: 14px;
+}
+.feature_btn{
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 2px 2px 1px 5px rgba(17, 17, 17, 0.619);
+    transition: box-shadow 1s ease transform 0.3s ease;
+    background: #8a8b8b;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-right: -20px;
+}
+.feature_btn:hover{
+    box-shadow: inset 2px 2px 5px 5px rgba(17, 17, 17, 0.179);
+    background: #829494;
+    color: white;
+    border-radius: 2px;
+}
+.fav{
+float: right;
+margin-top: 10px;
+cursor: pointer;
+}
+
+.features{
+    box-shadow: 2px 2px 1px 5px rgba(17, 17, 17, 0.619);
+    background: rgb(57, 56, 56);
+    height: 100px;
+    width: 340px;
+    color: white;
+    font-size: 13px;
+    padding-top: 1px;
+    opacity: 0;
+    transition: opacity 1s ease;
+   
+}
+.features.active{
+    opacity: 1;
+}
+
+.features > ul {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+}
+.features > ul >li {
+    text-align: start;
+    padding: 2px;
+
+    
+}

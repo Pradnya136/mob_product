@@ -1,0 +1,23 @@
+.heading{
+    background: green;
+}
+
+.ulist{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    background: linear-gradient(to right, rgba(128, 128, 128, 0.515), rgba(241, 238, 238, 0.564));
+    height: 30px;
+    place-items: center;
+    padding: 20px;
+
+}
+.ulist > li {
+    font-size: 18px;
+}
+
+.ulist > li:hover{
+    color: rgb(28, 125, 28);
+    cursor: pointer;
+}

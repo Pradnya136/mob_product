@@ -1,0 +1,12 @@
+.heading{
+    background: yellow;
+}
+.cardlist_wrap{
+    display: flex;
+    background: rgb(246, 245, 245);
+     gap: 50px;
+     justify-content: center;
+     padding: 20px;
+     list-style-type: none;
+     flex-wrap: wrap;
+}
